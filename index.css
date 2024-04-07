@@ -29,7 +29,7 @@ body{
   
 }
 .Content-div{
-    font-family: sans-serif;
+    font-family:sans-serif;
   margin-left: 25px;
   margin-right: 30px;
 
@@ -143,3 +143,128 @@ tr td{
 tr:nth-child(4) td{
     border: none;
 }
+
+
+/* MOBILE DISPLAY */
+
+@media only screen and (max-width:600px){
+    body{
+        background-color:#fafafa;
+        display: flex;
+        justify-content: center;
+    
+        
+       
+    }
+    
+    .P-div{
+  
+        background-color: rgb(255, 255, 255);
+        
+        width: auto;
+        height: 1200px;
+    
+        
+    }
+    .img-div{
+        padding: 0px;
+        border-radius: 0px;
+        width: auto;
+    }
+    .img-div img{
+        width: 100%;
+        border-radius: 0px;
+        
+      }
+      h1{
+        font-size: 37px;
+   }
+   p{
+    font-size: 17.5px;
+    line-height: 30px;
+  
+}
+.P{
+    position: relative;
+    top :30px;
+    color:#742e4b;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 30px;
+    
+     
+    
+}
+ul li{
+    position: relative;
+    top: 30px;
+  padding-left: 30px;
+line-height: 1.5;
+font-size: 21px;
+color: #5e5555;
+}
+.Prep-Time{
+   
+    padding-bottom: 50px; 
+}
+
+.span{
+    display: inline-block;
+    margin-top: 40px;
+    
+    font-size: 35px;
+    color: #7a473a;
+    font-weight: 700;
+    
+}
+
+.ul li{
+    margin-left: -25px;
+    color: #736f6c;
+    font-size: 20px;
+    
+    line-height: 1.5;
+    
+
+}
+hr{
+    position: relative;
+    top: 50px;
+    
+
+}
+.ol{
+    position: relative;
+    top: 30px;
+}
+.ol li{
+    position: relative;
+    top: 15px;
+    left: -20px;
+  padding-left: 8px;
+  margin-top: 10px;
+font-size: 17px;
+color: #5e5555;
+line-height: 1.5;
+}
+
+tr td{
+    position: relative;
+    left: 20px;
+     border-bottom: 0.5px solid rgba(128, 128, 128, 0.354);
+     padding-bottom: 20px;
+     font-size: 20px;
+    
+    
+ }
+ .final-p{
+    margin-top: 45px;
+}
+tr:nth-child(4) td{
+   padding-bottom: 40px;
+}
+
+
+
+}
+
